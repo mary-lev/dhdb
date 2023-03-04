@@ -26,7 +26,6 @@ import {
   Label,
   FormGroup,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
@@ -328,11 +327,11 @@ function SectionButtons() {
             <Col sm="3">
               <InputGroup>
                 <Input placeholder="Username" type="text" />
-                <InputGroupAddon addonType="append">
+                <Button addonType="append">
                   <InputGroupText>
                     <i aria-hidden={true} className="fa fa-group" />
                   </InputGroupText>
-                </InputGroupAddon>
+                </Button>
               </InputGroup>
             </Col>
           </Row>
