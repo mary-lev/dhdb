@@ -25,6 +25,9 @@
     "compile-sass": "sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css",
     "minify-sass": "sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --style compressed"
   },
+  "overrides": {
+      "graceful-fs": "^4.2.10"
+    },  
   "eslintConfig": {
     "extends": "react-app"
   },
