@@ -30,8 +30,7 @@ import {
   InputGroup,
   Container,
   Row,
-  Col,
-  CustomInput
+  Col
 } from "reactstrap";
 
 function SectionButtons() {
@@ -429,7 +428,7 @@ function SectionButtons() {
                 <h3>Toggle Buttons</h3>
               </div>
               <div id="switches">
-                <CustomInput
+                <Input
                   type="switch"
                   id="exampleCustomSwitch1"
                   name="customSwitch1"
@@ -437,7 +436,7 @@ function SectionButtons() {
                   label="Default On"
                 />
                 <br />
-                <CustomInput
+                <Input
                   type="switch"
                   id="exampleCustomSwitch2"
                   name="customSwitch2"
